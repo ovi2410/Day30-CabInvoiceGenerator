@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CabInvoiceGenerator
 {
+    //custom Exception-Invalid Distance,Invalid Time
     public class CustomException : Exception
     {
         public ExceptionType type;
@@ -13,7 +14,7 @@ namespace CabInvoiceGenerator
 
         public enum ExceptionType
         {
-            INVALID_DISTANCE, INVALID_TIME
+            INVALID_DISTANCE, INVALID_TIME, NULL_RIDES
         }
         public CustomException(ExceptionType type, string message) : base(message)
         {
