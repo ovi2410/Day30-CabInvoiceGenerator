@@ -6,5 +6,9 @@ using System.Threading.Tasks;
 
 namespace CabInvoiceGenerator
 {
-    public enum RideType { NORMAL, PREMIUM }
+    //Enum type for rides
+    public enum RideType
+    {
+        NORMAL_RIDE, PREMIUM_RIDE
+    }
 }
