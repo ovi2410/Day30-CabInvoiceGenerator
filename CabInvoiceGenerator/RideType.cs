@@ -11,4 +11,5 @@ namespace CabInvoiceGenerator
     {
         NORMAL_RIDE, PREMIUM_RIDE
     }
+
 }
